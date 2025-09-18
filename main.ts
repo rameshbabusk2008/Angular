@@ -17,7 +17,7 @@ class Nodes {
     set nodeid(value:number)
     {
         if (value < 0)
-            throw new Error('value cannot be zero')
+            throw new Error('value cannot be zero feature A')
 
         this._nodeId = value;
 
